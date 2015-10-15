@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         
         println("My First Git hub demo")
         println("My Second git hub demo")
+        
+        println("My Second git hub demo")
     }
 
     override func didReceiveMemoryWarning() {

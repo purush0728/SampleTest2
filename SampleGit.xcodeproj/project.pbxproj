@@ -13,6 +13,7 @@
 		9793ECFF1BCFB12E00FC0FBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9793ECFE1BCFB12E00FC0FBD /* Images.xcassets */; };
 		9793ED021BCFB12E00FC0FBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9793ED001BCFB12E00FC0FBD /* LaunchScreen.xib */; };
 		9793ED0E1BCFB12E00FC0FBD /* SampleGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9793ED0D1BCFB12E00FC0FBD /* SampleGitTests.swift */; };
+		9793ED1A1BCFC5E600FC0FBD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9793ED191BCFC5E600FC0FBD /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9793ED071BCFB12E00FC0FBD /* SampleGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9793ED0C1BCFB12E00FC0FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9793ED0D1BCFB12E00FC0FBD /* SampleGitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGitTests.swift; sourceTree = "<group>"; };
+		9793ED191BCFC5E600FC0FBD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				9793ECF71BCFB12E00FC0FBD /* AppDelegate.swift */,
 				9793ECF91BCFB12E00FC0FBD /* ViewController.swift */,
+				9793ED191BCFC5E600FC0FBD /* SecondViewController.swift */,
 				9793ECFB1BCFB12E00FC0FBD /* Main.storyboard */,
 				9793ECFE1BCFB12E00FC0FBD /* Images.xcassets */,
 				9793ED001BCFB12E00FC0FBD /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9793ED1A1BCFC5E600FC0FBD /* SecondViewController.swift in Sources */,
 				9793ECFA1BCFB12E00FC0FBD /* ViewController.swift in Sources */,
 				9793ECF81BCFB12E00FC0FBD /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				9793ED131BCFB12E00FC0FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9793ED141BCFB12E00FC0FBD /* Build configuration list for PBXNativeTarget "SampleGitTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				9793ED161BCFB12E00FC0FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
